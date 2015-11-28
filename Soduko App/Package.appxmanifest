@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="7radLLC.SudokuComplete" Publisher="CN=7386855F-8F4D-4C98-B7DB-81CD2C5BEAAB" Version="1.0.0.6" />
+  <Properties>
+    <DisplayName>Sudoku Complete</DisplayName>
+    <PublisherDisplayName>7rad, LLC</PublisherDisplayName>
+    <Logo>Assets/StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Soduko_App.App">
+      <VisualElements DisplayName="Sudoku Complete" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="A fun, interactive sudoku app. This includes the original game of sudoku along with a sudoku solver feature. Highscores and game statistics are saved accordingly. The colors and the theme of the application are also completely customizable." ForegroundText="dark" BackgroundColor="#464646" ToastCapable="false">
+        <DefaultTile ShowName="wideLogoOnly" WideLogo="Assets\WideLogo.png" ShortName="Sudoku" />
+        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="white" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="picturesLibrary" />
+  </Capabilities>
+</Package>

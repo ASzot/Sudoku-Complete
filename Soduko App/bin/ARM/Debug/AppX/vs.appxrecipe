@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ANDREW-COMPUTER</Machine>
+    <WindowsUser>Andrew</WindowsUser>
+    <SolutionConfiguration>Debug|ARM</SolutionConfiguration>
+    <PackageArchitecture>arm</PackageArchitecture>
+    <RegisteredManifestChecksum>128EF95AE1A3F1F0F032B38AB5A67AC4ED685FAC79B385A15BD50439F3537878</RegisteredManifestChecksum>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\ARM\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-08-15T22:35:36.248</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\ARM\Debug\Soduko App.exe">
+      <PackagePath>Soduko App.exe</PackagePath>
+      <Modified>2013-08-15T22:35:36.146</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\ARM\Debug\Soduko App.pdb">
+      <PackagePath>Soduko App.pdb</PackagePath>
+      <Modified>2013-08-15T22:35:36.132</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-09T02:39:39.704</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-07T05:29:03.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-09T02:42:34.138</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <Modified>2013-08-15T22:32:43.386</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-09T02:45:02.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2013-04-17T20:59:09.497</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\ARM\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-04-17T20:36:54.857</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\ARM\Debug\Pages\HighscoresPage.xaml">
+      <PackagePath>Pages\HighscoresPage.xaml</PackagePath>
+      <Modified>2013-08-15T00:25:41.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\ARM\Debug\Pages\GameSelectorPage.xaml">
+      <PackagePath>Pages\GameSelectorPage.xaml</PackagePath>
+      <Modified>2013-08-15T00:28:49.248</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\ARM\Debug\Pages\SettingsPage.xaml">
+      <PackagePath>Pages\SettingsPage.xaml</PackagePath>
+      <Modified>2013-08-14T04:41:40.580</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\ARM\Debug\Pages\SolverPage.xaml">
+      <PackagePath>Pages\SolverPage.xaml</PackagePath>
+      <Modified>2013-08-11T05:16:15.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\ARM\Debug\SodukoPiece.xaml">
+      <PackagePath>SodukoPiece.xaml</PackagePath>
+      <Modified>2013-06-14T02:05:49.235</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\ARM\Debug\Pages\GamePage.xaml">
+      <PackagePath>Pages\GamePage.xaml</PackagePath>
+      <Modified>2013-08-14T05:04:39.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\ARM\Debug\Common\GameControlTemplates.xaml">
+      <PackagePath>Common\GameControlTemplates.xaml</PackagePath>
+      <Modified>2013-08-14T04:49:52.680</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\ARM\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2013-04-18T18:50:56.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\ARM\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2013-08-15T00:28:49.239</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\ARM\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-08-15T22:35:36.193</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

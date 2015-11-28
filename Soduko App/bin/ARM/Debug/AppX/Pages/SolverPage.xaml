@@ -1,0 +1,115 @@
+﻿<common:LayoutAwarePage
+    x:Name="pageRoot"
+    x:Class="Soduko_App.Pages.SolverPage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Soduko_App.Pages"
+    xmlns:common="using:Soduko_App.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">Sudoku Solver</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid x:Name="MainGrid" Style="{StaticResource LayoutRootStyle}" Background="{StaticResource GamePageBackgroundBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="120" />
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='6' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <TextBlock FontWeight="Normal" VerticalAlignment="Center" x:Name="pageTitle" Style="{StaticResource GameMainTitleText}" Grid.Column="1" Text="{StaticResource AppName}"/>
+            <Button x:ConnectionId='7' Grid.Column="1" x:Name="HelpButton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="20" Style="{StaticResource GameButton}" Height="70" Width="210" FontSize="40"                         >Help</Button>
+        </Grid>
+        
+        <Grid x:Name="ContentGrid" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid x:Name="CanvasGrid">
+                <Canvas x:ConnectionId='5' x:Name="PuzzleCanvas" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20" Height="500" Width="500" RenderTransformOrigin="0.5,0.5"                             >
+                    <Canvas.RenderTransform>
+                        <CompositeTransform/>
+                    </Canvas.RenderTransform>
+                </Canvas>
+                
+            </Grid>
+            
+            <Grid x:Name="SidePanel" Grid.Column="1">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Button x:ConnectionId='1' x:Name="ResetButton" Margin="10" Style="{StaticResource GameButton}" Height="100" Width="300" FontSize="40"                          >Reset</Button>
+                    <Button x:ConnectionId='2' x:Name="SolveButton" Margin="10" Style="{StaticResource GameButton}" Height="100" Width="300" FontSize="40"                          >Solve</Button>
+                    <StackPanel x:Name="InitialTimeoutPanel">
+                        <Button x:ConnectionId='4' x:Name="OpenTimeoutButton" Margin="10" Style="{StaticResource GameButton}" Height="100" Width="300" FontSize="35"                                >Modify Timeout</Button>
+                    </StackPanel>
+                    <StackPanel x:Name="TimeoutModifierPanel" Visibility="Collapsed">
+                        <TextBlock HorizontalAlignment="Center" Style="{StaticResource GameText}" Margin="0,20,0,9">New Timeout</TextBlock>
+                        <TextBox x:Name="NewTimeoutTextBox" HorizontalAlignment="Center" BorderBrush="Black" Width="200"/>
+                        <Button x:ConnectionId='3' x:Name="AcceptTimeout" Margin="10" HorizontalAlignment="Center" Style="{StaticResource GameButton}" Height="50" Width="150" FontSize="20"                            >Ok</Button>
+                    </StackPanel>
+                    <TextBlock x:Name="WarningText" Visibility="Collapsed" Foreground="Red" Style="{StaticResource GameText}">Warning: Based on the difficulty of this puzzle solving could take some time.</TextBlock>
+                </StackPanel>
+            </Grid>
+        </Grid>
+        
+        <Grid x:Name="NumberSelectorGrid" Grid.Row="2">
+            <StackPanel x:Name="NumberSelectorStackPanel" Orientation="Horizontal" Margin="30,0,0,0">
+                <StackPanel.ChildrenTransitions>
+                    <TransitionCollection>
+                        <EntranceThemeTransition/>
+                        <AddDeleteThemeTransition/>
+                    </TransitionCollection>
+                </StackPanel.ChildrenTransitions>
+            </StackPanel>
+        </Grid>
+
+        <VisualStateManager.VisualStateGroups>
+
+            <!-- Visual states reflect the application's view state -->
+            <VisualStateGroup x:Name="ApplicationViewStates">
+                <VisualState x:Name="FullScreenLandscape"/>
+                <VisualState x:Name="Filled"/>
+
+                <!-- The entire page respects the narrower 100-pixel margin convention for portrait -->
+                <VisualState x:Name="FullScreenPortrait">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PortraitBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+
+                <!-- The back button and title have different styles when snapped -->
+                <VisualState x:Name="Snapped">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="pageTitle" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedPageHeaderTextStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</common:LayoutAwarePage>
+

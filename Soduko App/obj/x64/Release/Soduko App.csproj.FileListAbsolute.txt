@@ -1,0 +1,48 @@
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\x64\Release\Soduko App.exe
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\x64\Release\Soduko App.pdb
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\x64\Release\resources.pri
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\x64\Release\AppxManifest.xml
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\x64\Release\Soduko App.build.appxrecipe
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\App.g.i.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\App.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\Pages\HighscoresPage.g.i.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\Pages\HighscoresPage.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\Pages\GameSelectorPage.g.i.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\Pages\GameSelectorPage.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\Pages\SettingsPage.g.i.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\Pages\SettingsPage.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\Pages\SolverPage.g.i.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\Pages\SolverPage.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\SodukoPiece.g.i.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\SodukoPiece.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\Pages\GamePage.g.i.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\Pages\GamePage.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\Common\GameControlTemplates.g.i.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\Common\GameControlTemplates.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\Common\StandardStyles.g.i.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\Common\StandardStyles.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\MainPage.g.i.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\MainPage.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\XamlTypeInfo.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\App.xaml
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\Pages\HighscoresPage.xaml
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\Pages\GameSelectorPage.xaml
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\Pages\SettingsPage.xaml
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\Pages\SolverPage.xaml
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\SodukoPiece.xaml
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\Pages\GamePage.xaml
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\Common\GameControlTemplates.xaml
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\Common\StandardStyles.xaml
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\MainPage.xaml
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\Soduko App.exe
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\Soduko App.pdb
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\priconfig.xml.intermediate
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\layout.resfiles.intermediate
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\resources.resfiles.intermediate
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\pri.resfiles.intermediate
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\priconfig.xml
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\layout.resfiles
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\resources.resfiles
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\pri.resfiles
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\LanguageQualifiers.txt
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\x64\Release\ProjectArchitectures.txt

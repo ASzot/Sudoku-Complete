@@ -1,0 +1,52 @@
+﻿<UserControl
+    x:Class="Soduko_App.SodukoPiece"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Soduko_App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+    
+    <UserControl.Resources>
+        <Storyboard x:Name="RotateStoryboard">
+            <DoubleAnimation Storyboard.TargetName="RotateTransform"
+                             Storyboard.TargetProperty="RotationY"
+                             To="360"
+                             Duration="00:00:00.5"/>
+        </Storyboard>
+    </UserControl.Resources>
+    
+    <Grid Height="66" Width="66" x:Name="PieceBackground">
+        <Grid.Projection>
+            <PlaneProjection x:Name="RotateTransform"/>
+        </Grid.Projection>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="CommonStates">
+                <VisualStateGroup.Transitions>
+                    <VisualTransition GeneratedDuration="0"/>
+                </VisualStateGroup.Transitions>
+                <VisualState x:Name="Normal"/>
+                <VisualState x:Name="PointerOver">
+                    <Storyboard>
+                        <ColorAnimation Duration="0" To="LightBlue" Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" Storyboard.TargetName="border" d:IsOptimized="True"/>
+                    </Storyboard>
+                </VisualState>
+                <VisualState x:Name="LightUp">
+                    <Storyboard>
+                        <ColorAnimation Duration="0:0:1" To="Red" Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" Storyboard.TargetName="border" AutoReverse="True" d:IsOptimized="True"/>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <Border x:ConnectionId='1' x:Name="border" BorderBrush="Blue" BorderThickness="2" Background="White" Padding="0" Margin="2"                                                                                                  >
+            <StackPanel>
+                <TextBlock x:Name="SuggestionText" TextWrapping="Wrap" TextAlignment="Left" FontSize="10" Foreground="Black"></TextBlock>
+                <TextBlock x:ConnectionId='2' x:Name="CaptionText" Margin="0,-15,0,0" TextWrapping="Wrap" Text="9" TextAlignment="Center" FontFamily="Segoe UI Light" FontSize="58" Padding="0" Foreground="Gray" VerticalAlignment="Center" HorizontalAlignment="Center"                      />
+            </StackPanel>
+                
+        </Border>
+    </Grid>
+</UserControl>
+

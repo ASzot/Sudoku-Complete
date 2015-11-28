@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ANDREW-COMPUTER</Machine>
+    <WindowsUser>Andrew</WindowsUser>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\x64\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\x64\Release\Soduko App.exe">
+      <PackagePath>Soduko App.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\x64\Release\Soduko App.pdb">
+      <PackagePath>Soduko App.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\x64\Release\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\x64\Release\Pages\HighscoresPage.xaml">
+      <PackagePath>Pages\HighscoresPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\x64\Release\Pages\GameSelectorPage.xaml">
+      <PackagePath>Pages\GameSelectorPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\x64\Release\Pages\SettingsPage.xaml">
+      <PackagePath>Pages\SettingsPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\x64\Release\Pages\SolverPage.xaml">
+      <PackagePath>Pages\SolverPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\x64\Release\SodukoPiece.xaml">
+      <PackagePath>SodukoPiece.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\x64\Release\Pages\GamePage.xaml">
+      <PackagePath>Pages\GamePage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\x64\Release\Common\GameControlTemplates.xaml">
+      <PackagePath>Common\GameControlTemplates.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\x64\Release\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\x64\Release\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\bin\x64\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

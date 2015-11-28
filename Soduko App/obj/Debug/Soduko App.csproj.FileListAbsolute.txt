@@ -1,0 +1,42 @@
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\bin\Debug\Soduko App.exe
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\bin\Debug\Soduko App.pdb
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\bin\Debug\resources.pri
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\bin\Debug\AppxManifest.xml
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\bin\Debug\Soduko App.build.appxrecipe
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\App.g.i.cs
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\App.g.cs
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\Common\GameControlTemplates.g.i.cs
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\Common\GameControlTemplates.g.cs
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\Common\StandardStyles.g.i.cs
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\Common\StandardStyles.g.cs
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\MainPage.g.i.cs
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\MainPage.g.cs
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\XamlTypeInfo.g.cs
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\Common\StandardStyles.xaml
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\App.xaml
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\Common\GameControlTemplates.xaml
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\MainPage.xaml
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\Soduko App.exe
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\Soduko App.pdb
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\priconfig.xml.intermediate
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\layout.resfiles.intermediate
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\resources.resfiles.intermediate
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\pri.resfiles.intermediate
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\priconfig.xml
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\layout.resfiles
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\resources.resfiles
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\pri.resfiles
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\LanguageQualifiers.txt
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\ProjectArchitectures.txt
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\Pages\GamePage.g.i.cs
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\Pages\GamePage.g.cs
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\Pages\GamePage.xaml
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\SodukoPiece.g.i.cs
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\SodukoPiece.g.cs
+c:\users\andrew\documents\visual studio 2012\Projects\Soduko App\Soduko App\obj\Debug\SodukoPiece.xaml
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\Debug\Pages\GameSelectorPage.g.i.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\Debug\Pages\GameSelectorPage.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\Debug\Pages\GameSelectorPage.xaml
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\Debug\Pages\HighscoresPage.g.i.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\Debug\Pages\HighscoresPage.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Soduko App\Soduko App\obj\Debug\Pages\HighscoresPage.xaml

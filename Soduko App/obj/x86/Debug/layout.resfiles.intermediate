@@ -1,0 +1,16 @@
+Assets\Logo.png
+Assets\SmallLogo.png
+Assets\SplashScreen.png
+Assets\StoreLogo.png
+Assets\WideLogo.scale-100.png
+App.xaml
+Common\GameControlTemplates.xaml
+Common\StandardStyles.xaml
+MainPage.xaml
+Pages\GamePage.xaml
+Pages\GameSelectorPage.xaml
+Pages\HighscoresPage.xaml
+Pages\SettingsPage.xaml
+Pages\SolverPage.xaml
+SodukoPiece.xaml
+Common\ReadMe.txt

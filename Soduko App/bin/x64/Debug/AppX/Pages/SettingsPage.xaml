@@ -1,0 +1,158 @@
+﻿<common:LayoutAwarePage
+    x:Name="pageRoot"
+    x:Class="Soduko_App.Pages.SettingsPage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Soduko_App.Pages"
+    xmlns:common="using:Soduko_App.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">Settings</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid x:Name="MainGrid" Style="{StaticResource LayoutRootStyle}" Background="{StaticResource GamePageBackgroundBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='9' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="{StaticResource AppName}" Style="{StaticResource GameMainTitleText}" VerticalAlignment="Center" FontWeight="Normal"/>
+        </Grid>
+        
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <StackPanel Margin="50">
+                <TextBlock x:Name="BackgroundColorText" Style="{StaticResource GameText}">-Background Color</TextBlock>
+                <ComboBox x:ConnectionId='4' BorderBrush="Black" Width="300" HorizontalAlignment="Left" Margin="20" x:Name="BackgroundColorComboBox"                                                        >
+                    <ComboBoxItem Foreground="White" Background="Black" Style="{StaticResource GameComboBoxItem}">Black</ComboBoxItem>
+                    <ComboBoxItem Style="{StaticResource GameComboBoxItem}">White</ComboBoxItem>
+                </ComboBox>
+
+                <TextBlock x:Name="FontColorText" Style="{StaticResource GameText}">-Text Color</TextBlock>
+                <ComboBox x:ConnectionId='5' BorderBrush="Black" Width="300" HorizontalAlignment="Left" Margin="20" x:Name="FontColorComboBox"                                                  >
+                    <ComboBoxItem Background="#FF00FF00" Style="{StaticResource GameComboBoxItem}">Green</ComboBoxItem>
+                    <ComboBoxItem Background="White" Style="{StaticResource GameComboBoxItem}">White</ComboBoxItem>
+                    <ComboBoxItem Background="Blue" Style="{StaticResource GameComboBoxItem}">Blue</ComboBoxItem>
+                    <ComboBoxItem Background="Red" Style="{StaticResource GameComboBoxItem}">Red</ComboBoxItem>
+                    <ComboBoxItem Background="Black" Foreground="White" Style="{StaticResource GameComboBoxItem}">Black</ComboBoxItem>
+                    <ComboBoxItem Background="#FF00A2FF" Style="{StaticResource GameComboBoxItem}">Cyan</ComboBoxItem>
+                    <ComboBoxItem Background="#FF267F00" Style="{StaticResource GameComboBoxItem}">Dark Green</ComboBoxItem>
+                </ComboBox>
+
+                <TextBlock x:Name="TitleColorText" Style="{StaticResource GameText}">-Title Text Color</TextBlock>
+                <ComboBox x:ConnectionId='6' BorderBrush="Black" Width="300" HorizontalAlignment="Left" Margin="20" x:Name="TitleColorComboBox"                                                   >
+                    <ComboBoxItem Background="#FF00FF00" Style="{StaticResource GameComboBoxItem}">Green</ComboBoxItem>
+                    <ComboBoxItem Background="White" Style="{StaticResource GameComboBoxItem}">White</ComboBoxItem>
+                    <ComboBoxItem Background="Blue" Style="{StaticResource GameComboBoxItem}">Blue</ComboBoxItem>
+                    <ComboBoxItem Background="Red" Style="{StaticResource GameComboBoxItem}">Red</ComboBoxItem>
+                    <ComboBoxItem Background="Black" Foreground="White" Style="{StaticResource GameComboBoxItem}">Black</ComboBoxItem>
+                    <ComboBoxItem Background="#FF00A2FF" Style="{StaticResource GameComboBoxItem}">Cyan</ComboBoxItem>
+                    <ComboBoxItem Background="#FF267F00" Style="{StaticResource GameComboBoxItem}">Dark Green</ComboBoxItem>
+                </ComboBox>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock x:Name="PictureBackgroundText" Style="{StaticResource GameText}">-Picture Background</TextBlock>
+                    <CheckBox x:ConnectionId='8' x:Name="PictureBackgroundCheckBox" Margin="15,0,0,0"                                                                                             BorderBrush="Green" BorderThickness="5"/>
+                </StackPanel>
+                <StackPanel Margin="15,10,0,0" x:Name="PictureSelectionPanel" Visibility="Collapsed">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock x:Name="PictureURLLabel" Style="{StaticResource GameText}">Picture Location:</TextBlock>
+                        
+                    </StackPanel>
+                    <TextBox Margin="15,0,0,0" x:Name="PictureURLTextBox" Width="Auto" BorderBrush="Black" BorderThickness="3"/>
+                    <Button x:ConnectionId='7' x:Name="ChooseButton" Style="{StaticResource GameButton}" FontSize="25" Margin="50,10,0,0"                           >Choose</Button>
+                </StackPanel>
+                
+            </StackPanel>
+            
+            <StackPanel Margin="50" Grid.Column="1">
+                <TextBlock x:Name="ButtonFontColorText" Style="{StaticResource GameText}" >-Button Font Color</TextBlock>
+                <ComboBox x:ConnectionId='1' BorderBrush="Black" Width="300" HorizontalAlignment="Left" Margin="20" x:Name="ButtonFontColorComboBox"                                                        >
+                    <ComboBoxItem Background="#FF00FF00" Style="{StaticResource GameComboBoxItem}">Green</ComboBoxItem>
+                    <ComboBoxItem Background="White" Style="{StaticResource GameComboBoxItem}">White</ComboBoxItem>
+                    <ComboBoxItem Background="Blue" Style="{StaticResource GameComboBoxItem}">Blue</ComboBoxItem>
+                    <ComboBoxItem Background="Red" Style="{StaticResource GameComboBoxItem}">Red</ComboBoxItem>
+                    <ComboBoxItem Background="Black" Foreground="White" Style="{StaticResource GameComboBoxItem}">Black</ComboBoxItem>
+                    <ComboBoxItem Background="#FF00A2FF" Style="{StaticResource GameComboBoxItem}">Cyan</ComboBoxItem>
+                    <ComboBoxItem Background="#FF267F00" Style="{StaticResource GameComboBoxItem}">Dark Green</ComboBoxItem>
+                </ComboBox>
+
+                <TextBlock x:Name="ButtonBackgroundColorText" Style="{StaticResource GameText}">-Button Background Color</TextBlock>
+                <ComboBox x:ConnectionId='2' BorderBrush="Black" Width="300" HorizontalAlignment="Left" Margin="20" x:Name="ButtonBackgroundColorComboBox"                                                              >
+                    <ComboBoxItem Background="#FF00FF00" Style="{StaticResource GameComboBoxItem}">Green</ComboBoxItem>
+                    <ComboBoxItem Background="White" Style="{StaticResource GameComboBoxItem}">White</ComboBoxItem>
+                    <ComboBoxItem Background="Blue" Style="{StaticResource GameComboBoxItem}">Blue</ComboBoxItem>
+                    <ComboBoxItem Background="Red" Style="{StaticResource GameComboBoxItem}">Red</ComboBoxItem>
+                    <ComboBoxItem Background="Black" Foreground="White" Style="{StaticResource GameComboBoxItem}">Black</ComboBoxItem>
+                    <ComboBoxItem Background="#FF00A2FF" Style="{StaticResource GameComboBoxItem}">Cyan</ComboBoxItem>
+                    <ComboBoxItem Background="#FF267F00" Style="{StaticResource GameComboBoxItem}">Dark Green</ComboBoxItem>
+                </ComboBox>
+
+                <TextBlock x:Name="ButtonBorderColorText" Style="{StaticResource GameText}">-Button Border Color</TextBlock>
+                <ComboBox x:ConnectionId='3' BorderBrush="Black" Width="300" HorizontalAlignment="Left" Margin="20" x:Name="ButtonBorderColorComboBox"                                                          >
+                    <ComboBoxItem Background="#FF00FF00" Style="{StaticResource GameComboBoxItem}">Green</ComboBoxItem>
+                    <ComboBoxItem Background="White" Style="{StaticResource GameComboBoxItem}">White</ComboBoxItem>
+                    <ComboBoxItem Background="Blue" Style="{StaticResource GameComboBoxItem}">Blue</ComboBoxItem>
+                    <ComboBoxItem Background="Red" Style="{StaticResource GameComboBoxItem}">Red</ComboBoxItem>
+                    <ComboBoxItem Background="Black" Foreground="White" Style="{StaticResource GameComboBoxItem}">Black</ComboBoxItem>
+                    <ComboBoxItem Background="#FF00A2FF" Style="{StaticResource GameComboBoxItem}">Cyan</ComboBoxItem>
+                    <ComboBoxItem Background="#FF267F00" Style="{StaticResource GameComboBoxItem}">Dark Green</ComboBoxItem>
+                </ComboBox>
+            </StackPanel>
+            
+        </Grid>
+
+        <VisualStateManager.VisualStateGroups>
+
+            <!-- Visual states reflect the application's view state -->
+            <VisualStateGroup x:Name="ApplicationViewStates">
+                <VisualState x:Name="FullScreenLandscape"/>
+                <VisualState x:Name="Filled"/>
+
+                <!-- The entire page respects the narrower 100-pixel margin convention for portrait -->
+                <VisualState x:Name="FullScreenPortrait">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PortraitBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+
+                <!-- The back button and title have different styles when snapped -->
+                <VisualState x:Name="Snapped">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="pageTitle" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedPageHeaderTextStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</common:LayoutAwarePage>
+
